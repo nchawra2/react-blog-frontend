@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.65%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+
+@media (max-width: 430px) {
+  html {
+    font-size: 50%;
+  }
+}

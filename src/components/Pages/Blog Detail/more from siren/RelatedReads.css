@@ -1,0 +1,58 @@
+.related-read-card {
+  width: 32rem;
+}
+
+.related-read-head {
+  color: #a2a2a2;
+  font-size: 1.5rem;
+}
+
+.related-read-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.related-read-text {
+  color: #404040;
+  font-size: 2rem;
+}
+
+.related-read-card > * {
+  margin-top: 1.45rem;
+}
+
+.temp-author-name {
+  margin-left: 5rem;
+  margin-top: 2rem;
+  color: #939393;
+  display: none;
+}
+
+@media (max-width: 430px) {
+  .related-read-head {
+    display: none;
+  }
+
+  .related-read-card .author {
+    display: none;
+  }
+
+  .related-read-card {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .related-read-img {
+    max-width: 20rem;
+  }
+
+  .related-read-text {
+    margin-left: 5rem;
+    font-size: 1.7rem;
+  }
+
+  .temp-author-name {
+    display: block;
+  }
+}

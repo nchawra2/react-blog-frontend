@@ -1,0 +1,21 @@
+.heading-text {
+  font-size: 3rem;
+}
+
+.heading {
+  margin-top: 4rem;
+}
+
+.heading-line {
+  width: 9rem;
+  height: 0.3rem;
+  background: #f08080;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 430px) {
+  .heading {
+    padding: 0 2rem;
+  }
+
+}

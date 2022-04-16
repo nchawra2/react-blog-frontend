@@ -1,0 +1,21 @@
+.author {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.author-blog-info {
+  color: #a2a2a2;
+  margin: 1rem 0;
+}
+
+.author-details {
+  align-self: flex-end;
+}
+
+.author-img {
+  border-radius: 50%;
+  height: 9rem;
+  width: 9rem;
+  object-fit: cover;
+}

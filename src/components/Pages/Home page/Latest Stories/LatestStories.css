@@ -1,0 +1,23 @@
+.latest-stories {
+  display: flex;
+  border-top: 0.2rem solid #f0f0f0;
+  border-bottom: 0.2rem solid #f0f0f0;
+  margin-top: 3.5rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.story-icon {
+  transform: rotateZ(-90deg);
+  margin-left: 1.5rem;
+}
+
+.story-loading {
+  margin-bottom: 5rem;
+}
+
+@media (max-width: 430px) {
+  .latest-stories {
+    border: 0;
+  }
+}
